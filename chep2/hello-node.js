@@ -4,7 +4,7 @@ let count = 0;
 
 //노드 서버 객체 생성
 const server = http.createServer((req, res) => {
-    console.log((count+=1));
+    console.log((count += 1));
     res.statusCode = 200;
     res.setHeader("Content-Type", "text/plain");
     res.write("hello\n");
