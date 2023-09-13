@@ -20,7 +20,7 @@ function user(req, res) { //const가 아니라 function으로 선언시 호이�
     res.json(`[user]name: ${user.name}, age: ${user.get}`);
 }
 
-// /feed로 요청이 들어오면 실행되는 함수
+// /feed로 요청이 들어오면 실행되는 함수수정
 function feed(_, res) {  // _기호는 사용하지 않는 변수는 빼는 것이 원칙이나, 함수 인터페이스 구조상 넣을수 밖에 없을때의 관례임
     res.json(`<ul>
     <li>picture1</li>
